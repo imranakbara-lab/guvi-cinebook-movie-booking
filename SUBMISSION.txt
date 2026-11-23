@@ -1,0 +1,16 @@
+GUVI Final Project 3 - P3 Movie Ticket Booking System (CineBook)
+
+GitHub repository : https://github.com/imranakbara-lab/guvi-cinebook-movie-booking
+Frontend (Vercel) : https://guvi-cinebook-movie-booking.vercel.app
+Backend (Render)  : https://cinebook-api-u4cg.onrender.com
+Swagger UI        : https://cinebook-api-u4cg.onrender.com/swagger-ui.html
+
+Demo logins
+  Admin : admin@cinebook.com / Admin@123
+  User  : user@cinebook.com  / User@1234
+
+Notes
+- Payment runs in test mode (simulated) - no money is charged. Add Razorpay TEST keys
+  (RAZORPAY_KEY_ID, RAZORPAY_KEY_SECRET) in Render to use the real Razorpay checkout.
+- Emails are logged (SMTP not configured). Set MAIL_ENABLED=true, MAIL_USERNAME, MAIL_PASSWORD to send.
+- Backend is on Render free plan - first request may take ~50 seconds to wake up.

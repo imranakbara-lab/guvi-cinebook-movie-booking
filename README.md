@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/imranakbara-lab/guvi-cinebook-movie-booking/actions/workflows/ci.yml/badge.svg)
 
-**Live:** https://guvi-cinebook-movie-booking.vercel.app · **API docs:** https://cinebook-api.onrender.com/swagger-ui.html
+**Live:** https://guvi-cinebook-movie-booking.vercel.app · **API docs:** https://cinebook-api-u4cg.onrender.com/swagger-ui.html
 
 Browse movies, view showtimes, pick seats on a live seat map, pay and get your ticket by email. Theaters manage movies, screens, showtimes and bookings from an admin panel. Seat locking prevents double booking.
 
@@ -81,7 +81,7 @@ On first start the app creates the admin account plus sample theaters, movies an
 | GET / PUT / DELETE | `/api/admin/users` | Admin |
 
 ## Deployment
-- **Backend → Render** (Docker, `render.yaml`) – https://cinebook-api.onrender.com
+- **Backend → Render** (Docker, `render.yaml`) – https://cinebook-api-u4cg.onrender.com
 - **Frontend → Vercel** (root `frontend`, env `VITE_API_URL`) – https://guvi-cinebook-movie-booking.vercel.app
 
 ### Demo logins
